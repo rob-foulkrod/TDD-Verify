@@ -193,7 +193,7 @@ Progress Bar: $progressBar
 ================================================================================
 BREAKDOWN BY STATUS
 ================================================================================
-TESTED SITES ($testedPass):
+SITES THAT PASSED ($testedPass):
 "@
 
     # Add passed sites to the summary
@@ -205,7 +205,7 @@ TESTED SITES ($testedPass):
         $summaryContent += "`n- [None currently]"
     }
 
-    $summaryContent += "`n`nFAILED SITES ($testedFail):"
+    $summaryContent += "`n`nSITES THAT FAILED ($testedFail):"
     
     # Add failed sites to the summary
     if ($failedSites.Count -gt 0) {

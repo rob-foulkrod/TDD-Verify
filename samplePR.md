@@ -20,6 +20,7 @@ SecurityControl: 'Ignore' // Required for MTTs in managed subscriptions
 
 *   **MTT managed subscriptions** enforce strict Azure Policy/Guardrails. Demo resources (short-lived, non-prod) can be flagged or blocked by controls intended for production workloads.
 *   Adding `SecurityControl: 'Ignore'` allows training/demo resources to **bypass or quiet specific automated controls** designed for production, ensuring workshops and demos proceed without policy denials.
+* Elements such as authenticating to storage accounts with keys is prohibited.
 
 ***
 
@@ -68,12 +69,6 @@ SecurityControl: 'Ignore' // Required for MTTs in managed subscriptions
 
 *   [x] Tag applied at root of deployment so it flows to all resources
 *   [x] Tested in MTT managed subscription
-*   [x] Readme updated with **“Training-only tag”** note
 *   [x] No changes to SKUs/regions/quotas
 
 ***
-
-
-
-
-

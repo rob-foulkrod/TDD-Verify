@@ -53,68 +53,80 @@ SITE VERIFICATION CHECKLIST
 
 6. AZURE MACHINE LEARNING
    URL: https://github.com/rob-foulkrod/MachineLearningAZD
-   Tested: UNTESTED
+   Tested: PASS
    TagNeeded: TRUE
    PatchCreated: TRUE
    PatchAccepted: TRUE
-   Notes: Must run locally due to lengthy setup
+   Notes: Must run locally due to lengthy setup. Effort should be put in to eliminate the tag
    Verified Date: October 16, 2025
 
 7. ESHOPONWEB VM ARCHITECTURE
    URL: https://github.com/rob-foulkrod/IAAS2019
-   Tested: UNTESTED
-   TagNeeded: UNKNOWN
-   Notes: 
-   Verified Date: 
+   Tested: PASS
+   TagNeeded: FALSE
+   Notes: Deployed in cloudshell without issues
+   Verified Date: October 16, 2025
 
 8. ESHOPONWEB ACI ARCHITECTURE
    URL: https://github.com/maartenvandiemen/AZD-ACI-Demo
-   Tested: UNTESTED
-   TagNeeded: UNKNOWN
-   Notes: 
-   Verified Date: 
+   Tested: FAIL
+   TagNeeded: TRUE
+   PatchCreated: TRUE
+   PatchAccepted: FALSE
+   Notes: Runs in cloudshell after tag has been added
+   Verified Date: October 16, 2025
 
 9. ESHOPONWEB ACAPPS ARCHITECTURE
    URL: https://github.com/maartenvandiemen/AZD-ACA-Demo
-   Tested: UNTESTED
-   TagNeeded: UNKNOWN
-   Notes: 
-   Verified Date: 
+   Tested: FAIL
+   TagNeeded: TRUE
+   PatchCreated: TRUE
+   PatchAccepted: FALSE
+   Notes: Runs in cloudshell after tag has been added
+   Verified Date: October 16, 2025
 
 10. ESHOPONWEB AKS ARCHITECTURE
     URL: https://github.com/maartenvandiemen/AZD-AKS-Demo
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: FAIL
+    TagNeeded: TRUE
+    PatchCreated: TRUE
+    PatchAccepted: FALSE
+    Notes: Runs in cloudshell after tag has been added
+    Verified Date: October 16, 2025
 
 11. AZURE FRONTDOOR CDN WITH SAMPLE HTML WEBAPP
     URL: https://github.com/petender/azd-fdcdn
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: Failed
+    TagNeeded: TRUE
+    PatchCreated: TRUE
+    PatchAccepted: FALSE
     Notes: 
     Verified Date: 
 
 12. ESHOPONWEB IN AZURE APP SERVICE AND SQL AZURE DB
     URL: https://github.com/maartenvandiemen/AZD-PaaS-Demo
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: FAILED
+    TagNeeded: TRUE
+    PatchCreated: TRUE
+    PatchAccepted: FALSE
+    Notes: Can only run on windows. No Cloud shell support.
+    Verified Date: October 16, 2025
 
 13. AZURE EVENT HUB WITH CONSOLE APP
     URL: https://github.com/true-while/event-hub-azd
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: FAILED
+    TagNeeded: TRUE
+    PatchCreated: TRUE
+    PatchAccepted: FALSE
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 14. HUB SPOKE WITH VPN GATEWAY AND JUMPVM
     URL: https://github.com/petender/azd-hubspoke
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: PASSED
+    TagNeeded: FALSE
+    Notes: Works in cloudshell (25 minutes 51 seconds.)
+    Verified Date: October 16, 2025
 
 15. AZURE SITE 2 SITE VPN
     URL: https://github.com/petender/azd-site2sitevpn/
@@ -446,6 +458,11 @@ Format for updating:
 - Update the "Verified Date" field
 
 ================================================================================
+
+
+
+
+
 
 
 
