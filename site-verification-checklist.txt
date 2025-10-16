@@ -28,31 +28,37 @@ SITE VERIFICATION CHECKLIST
 
 3. AZURE AI SERVICES WITH MULTIPLE OPENAI MODELS
    URL: https://github.com/petender/OpenAIMultiModel
-   Tested: UNTESTED
-   TagNeeded: UNKNOWN
-   Notes: 
-   Verified Date: 
+   Tested: PASS
+   TagNeeded: NO
+   Notes: Could use a Demo Guide
+   Verified Date: October 16, 2025
 
 4. TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
    URL: https://github.com/rob-foulkrod/TollBooth
-   Tested: UNTESTED
-   TagNeeded: UNKNOWN
-   Notes: 
-   Verified Date: 
+   Tested: TRUE
+   TagNeeded: YES
+   PatchCreated: true
+   PatchAccepted: true
+   Notes: Rewrote final script to read ENV variables in cloudshell
+   Verified Date: October 15, 2025
 
 5. BLAZOR BADGEMAKER WITH AZURE AI SERVICES
    URL: https://github.com/rob-foulkrod/BadgeMaker
-   Tested: UNTESTED
-   TagNeeded: UNKNOWN
-   Notes: 
-   Verified Date: 
+   Tested: PASS
+   TagNeeded: TRUE
+   PatchCreated: true
+   PatchAccepted: true
+   Notes: Updated to remove local framework dependencies
+   Verified Date: October 16, 2025
 
 6. AZURE MACHINE LEARNING
    URL: https://github.com/rob-foulkrod/MachineLearningAZD
    Tested: UNTESTED
-   TagNeeded: UNKNOWN
-   Notes: 
-   Verified Date: 
+   TagNeeded: TRUE
+   PatchCreated: TRUE
+   PatchAccepted: TRUE
+   Notes: Must run locally due to lengthy setup
+   Verified Date: October 16, 2025
 
 7. ESHOPONWEB VM ARCHITECTURE
    URL: https://github.com/rob-foulkrod/IAAS2019
@@ -440,6 +446,7 @@ Format for updating:
 - Update the "Verified Date" field
 
 ================================================================================
+
 
 
 

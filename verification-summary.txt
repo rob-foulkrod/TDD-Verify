@@ -5,42 +5,52 @@
 SUMMARY STATISTICS
 ================================================================================
 Total Sites: 58
-Tested (PASS): 2
+Tested (PASS): 4
 Tested (FAIL): 1
-Untested: 55
-SecurityControl Tags Needed (YES): 1
-SecurityControl Tags Needed (NO): 2
-SecurityControl Tags Status Unknown: 55
-Patches Created: 1
-Patches Accepted: 0
+Untested: 52
+SecurityControl Tags Needed (YES): 4
+SecurityControl Tags Needed (NO): 3
+SecurityControl Tags Status Unknown: 51
+Patches Created: 4
+Patches Accepted: 3
 Patches Pending: 1
 
 ================================================================================
 PROGRESS REPORT
 ================================================================================
-Overall Testing Progress: 3/58 sites (5.2%)
-Pass Rate: 2/3 tested sites (66.7%)
-Progress Bar: [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 5.2%
+Overall Testing Progress: 5/58 sites (8.6%)
+Pass Rate: 4/5 tested sites (80%)
+Progress Bar: [████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.6%
 
 ================================================================================
 BREAKDOWN BY STATUS
 ================================================================================
-TESTED SITES (2):
+TESTED SITES (4):
 - MINIMAL .NET API WITH CONFERENCEAPI SAMPLE (PASS)
 - API MANAGEMENT WITH CONFERENCEAPI (PASS)
+- AZURE AI SERVICES WITH MULTIPLE OPENAI MODELS (PASS)
+- BLAZOR BADGEMAKER WITH AZURE AI SERVICES (PASS)
 
 FAILED SITES (1):
 - AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT) (FAIL)
 
-SITES REQUIRING SECURITY TAGS (1):
+SITES REQUIRING SECURITY TAGS (4):
+- TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
+- BLAZOR BADGEMAKER WITH AZURE AI SERVICES
+- AZURE MACHINE LEARNING
 - AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT)
 
 PATCH TRACKING:
-SITES WITH PATCHES CREATED (1):
+SITES WITH PATCHES CREATED (4):
+- TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
+- BLAZOR BADGEMAKER WITH AZURE AI SERVICES
+- AZURE MACHINE LEARNING
 - AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT)
 
-SITES WITH PATCHES ACCEPTED (0):
-- [None currently]
+SITES WITH PATCHES ACCEPTED (3):
+- TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
+- BLAZOR BADGEMAKER WITH AZURE AI SERVICES
+- AZURE MACHINE LEARNING
 
 SITES WITH PATCHES PENDING (1):
 - AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT)
