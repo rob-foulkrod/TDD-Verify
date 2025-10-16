@@ -1,0 +1,449 @@
+# Azure Demo Sites Verification Checklist
+# Date Created: October 16, 2025
+# Last Updated: October 16, 2025
+
+## VERIFICATION STATUS LEGEND:
+# Tested: PASS/FAIL/UNTESTED
+# TagNeeded: YES/NO/UNKNOWN
+# PatchCreated: true/false (indicates if a patch was created for issues)
+# PatchAccepted: true/false (indicates if the created patch was accepted)
+
+================================================================================
+SITE VERIFICATION CHECKLIST
+================================================================================
+
+1. MINIMAL .NET API WITH CONFERENCEAPI SAMPLE
+   URL: https://github.com/petender/ConferenceAPI
+   Tested: PASS
+   TagNeeded: NO
+   Notes: Verified works in cloudshell, doesn't need SecurityControl: Ignore tags
+   Verified Date: October 16, 2025
+
+2. API MANAGEMENT WITH CONFERENCEAPI
+   URL: https://github.com/petender/azd-apimwithconfAPI
+   Tested: PASS
+   TagNeeded: NO
+   Notes: Validated the Consumption tier in cloudshell
+   Verified Date: October 16, 2025
+
+3. AZURE AI SERVICES WITH MULTIPLE OPENAI MODELS
+   URL: https://github.com/petender/OpenAIMultiModel
+   Tested: UNTESTED
+   TagNeeded: UNKNOWN
+   Notes: 
+   Verified Date: 
+
+4. TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
+   URL: https://github.com/rob-foulkrod/TollBooth
+   Tested: UNTESTED
+   TagNeeded: UNKNOWN
+   Notes: 
+   Verified Date: 
+
+5. BLAZOR BADGEMAKER WITH AZURE AI SERVICES
+   URL: https://github.com/rob-foulkrod/BadgeMaker
+   Tested: UNTESTED
+   TagNeeded: UNKNOWN
+   Notes: 
+   Verified Date: 
+
+6. AZURE MACHINE LEARNING
+   URL: https://github.com/rob-foulkrod/MachineLearningAZD
+   Tested: UNTESTED
+   TagNeeded: UNKNOWN
+   Notes: 
+   Verified Date: 
+
+7. ESHOPONWEB VM ARCHITECTURE
+   URL: https://github.com/rob-foulkrod/IAAS2019
+   Tested: UNTESTED
+   TagNeeded: UNKNOWN
+   Notes: 
+   Verified Date: 
+
+8. ESHOPONWEB ACI ARCHITECTURE
+   URL: https://github.com/maartenvandiemen/AZD-ACI-Demo
+   Tested: UNTESTED
+   TagNeeded: UNKNOWN
+   Notes: 
+   Verified Date: 
+
+9. ESHOPONWEB ACAPPS ARCHITECTURE
+   URL: https://github.com/maartenvandiemen/AZD-ACA-Demo
+   Tested: UNTESTED
+   TagNeeded: UNKNOWN
+   Notes: 
+   Verified Date: 
+
+10. ESHOPONWEB AKS ARCHITECTURE
+    URL: https://github.com/maartenvandiemen/AZD-AKS-Demo
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+11. AZURE FRONTDOOR CDN WITH SAMPLE HTML WEBAPP
+    URL: https://github.com/petender/azd-fdcdn
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+12. ESHOPONWEB IN AZURE APP SERVICE AND SQL AZURE DB
+    URL: https://github.com/maartenvandiemen/AZD-PaaS-Demo
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+13. AZURE EVENT HUB WITH CONSOLE APP
+    URL: https://github.com/true-while/event-hub-azd
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+14. HUB SPOKE WITH VPN GATEWAY AND JUMPVM
+    URL: https://github.com/petender/azd-hubspoke
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+15. AZURE SITE 2 SITE VPN
+    URL: https://github.com/petender/azd-site2sitevpn/
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+16. AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT)
+    URL: https://github.com/maartenvandiemen/AZD-WatermarkFunction
+    Tested: FAILED
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: false
+    Notes: Can only run on windows. No Cloud shell support. 
+    Verified Date: October 16, 2025
+
+17. AZURE SENTINEL WITH DATA CONNECTORS
+    URL: https://github.com/petender/azd-sentinel
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+18. AZURE TRAFFIC MANAGER WITH WEBAPPS
+    URL: https://github.com/petender/azd-trafficmgr
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+19. PURVIEW DEMO ENVIRONMENT
+    URL: https://github.com/rob-foulkrod/purviewEnvironment-azd
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+20. SERVICE ENDPOINT, PRIVATE ENDPOINT AND PRIVATE LINK SERVICE
+    URL: https://github.com/sarahallali/azd-Privatelink-Pendpoint
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+21. AZURE NESTED HYPERVISOR DEMOS
+    URL: https://github.com/koenraadhaedens/azd-nestedhv-dc-rtr
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+22. WINDOWS 11 DEVELOPER PC
+    URL: https://github.com/koenraadhaedens/AZD-WIN11-DEV-PC-DOCKER
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+23. AZURE HOSTED DEV CONTAINER
+    URL: https://github.com/koenraadhaedens/azd-infra-dev-containers
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+24. FUNCTIONS E2E HTTP TO EVENT HUBS
+    URL: https://github.com/rob-foulkrod/tdd-functions-e2e-http-to-eventhubs
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+25. AZURE SECURITY SCENARIOS
+    URL: https://github.com/true-while/owasp-azd/
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+26. AZURE LOAD TESTING
+    URL: https://github.com/maartenvandiemen/azd-loadtest/
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+27. SECURE AZURE DATA SOLUTIONS
+    URL: https://github.com/true-while/secure-data-solutions/
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+28. AZURE INTEGRATION SERVICES QUICKSTART
+    URL: https://github.com/ronaldbosma/azure-integration-services-quickstart
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+29. AZURE STORAGE ACCOUNT WITH BLOBS AND FILE SHARE
+    URL: https://github.com/petender/azd-storaccnt
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+30. DEPLOY DEEPSEEK-R1 ON AZURE CONTAINER APPS WITH SERVERLESS GPUS
+    URL: https://github.com/daverendon/azd-deepseek-r1-on-azure-container-apps
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+31. YOUTUBE SUMMARIZER WITH OPENAI AND BLAZOR .NET
+    URL: https://github.com/petender/azd-youtubesummarizer-openai
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+32. INTERNATIONAL SPACE STATION (ISS) TRACKER WITH FABRIC AND EVENT HUBS
+    URL: https://github.com/petender/issdata
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+33. DEPLOY A BASELINE WEB APPLICATION
+    URL: https://github.com/daverendon/azd-baseline-webapp
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+34. PLAN AND IMPLEMENT SECURITY FOR PUBLIC ACCESS TO AZURE RESOURCES
+    URL: https://github.com/daverendon/azd-firewall
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+35. COGNITIVE SERVICES PYTHON APP WITH SERVICEENDPOINT
+    URL: https://github.com/vincentk16/azd-vision-face
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+36. AZURE VM WIN2022 AS ADDS DOMAIN CONTROLLER, SECURED BY BASTION
+    URL: https://github.com/petender/azd-addsvm
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+37. SQL SERVER 2019 ALWAYSON CLUSTER WITH ADDS VM AND MANAGEMENT VM, SECURED BY BASTION
+    URL: https://github.com/petender/azd-sqlao
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+38. WINDOWS 2019 IIS SERVERS WITH LOAD BALANCER
+    URL: https://github.com/trainerkrunal/azd-vmwithlb
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+39. SERVICE ENDPOINTS AND SECURING STORAGE
+    URL: https://github.com/daverendon/azd-service-endpoints-and-securing-storage
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+40. INTERSITE CONNECTIVITY
+    URL: https://github.com/daverendon/azd-intersite-connectivity
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+41. GOODFOOD - MICROSERVICES ARCHITECTURE
+    URL: https://github.com/michelmsft/GoodFood/
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+42. AZURE APP CONFIGURATION
+    URL: https://github.com/maartenvandiemen/AZD-AppConfiguration
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+43. AZURE PRIVATE LINK
+    URL: https://github.com/daverendon/azd-private-link
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+44. SQL WORKLOAD SIMULATOR
+    URL: https://github.com/koenraadhaedens/azd-sqlworloadsim
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+45. AZ-104 ALL-IN-ONE
+    URL: https://github.com/SQLtattoo/azd-az104-all-in-one
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+46. AZURE AI AGENT SERVICE
+    URL: https://github.com/petender/azd-ai-agent-service
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+47. AZURE FOUNDRY SORA
+    URL: https://github.com/petender/azd-foundrysora
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+48. AZURE MONITOR DEMO
+    URL: https://github.com/kareldewinter/tdd-azd-monitor
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+49. API MANAGEMENT WITH CONFERENCEAPI - OAUTH
+    URL: https://github.com/rob-foulkrod/azd-apimwithconfAPI-OAuth
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+50. MICROSOFT SENTINEL
+    URL: https://github.com/daverendon/azd-microsoft-sentinel
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+51. POSTGRESQL WITH AI
+    URL: https://github.com/true-while/pg-ai-azd
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+52. PROTECT APIM WITH OAUTH
+    URL: https://github.com/ronaldbosma/protect-apim-with-oauth
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+53. CALL APIM BACKEND WITH OAUTH
+    URL: https://github.com/ronaldbosma/call-apim-backend-with-oauth
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+54. CALL APIM WITH MANAGED IDENTITY
+    URL: https://github.com/ronaldbosma/call-apim-with-managed-identity
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+55. HARDENED WEBAPP
+    URL: https://github.com/daverendon/azd-hardened-webapp
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+56. AZURE RESEARCHER
+    URL: https://github.com/petender/azd-researcher
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+57. AZURE MULTIAGENT
+    URL: https://github.com/daverendon/azd-multiagent
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+58. AZURE A2A TRANSLATION
+    URL: https://github.com/passadis/azure-a2a-translation
+    Tested: UNTESTED
+    TagNeeded: UNKNOWN
+    Notes: 
+    Verified Date: 
+
+================================================================================
+TESTING INSTRUCTIONS
+================================================================================
+For each site:
+1. Clone the repository using: git clone [URL]
+2. Run: azd up
+3. Test the deployed resources in Azure
+4. Check if SecurityControl: Ignore tags are needed
+5. Update this checklist with results
+6. Update the "Verified Date" field
+
+Format for updating:
+- Change "Tested: UNTESTED" to "Tested: PASS" or "Tested: FAIL"
+- Change "TagNeeded: UNKNOWN" to "TagNeeded: YES" or "TagNeeded: NO"
+- Add "PatchCreated: true" if you created a patch for issues found
+- Add "PatchAccepted: true/false" to track patch acceptance status
+- Add any relevant notes
+- Update the "Verified Date" field
+
+================================================================================
+
+
+
+
+
+
+
