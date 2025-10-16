@@ -35,7 +35,7 @@ SITE VERIFICATION CHECKLIST
 
 4. TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
    URL: https://github.com/rob-foulkrod/TollBooth
-   Tested: TRUE
+   Tested: PASS
    TagNeeded: YES
    PatchCreated: true
    PatchAccepted: true
@@ -45,7 +45,7 @@ SITE VERIFICATION CHECKLIST
 5. BLAZOR BADGEMAKER WITH AZURE AI SERVICES
    URL: https://github.com/rob-foulkrod/BadgeMaker
    Tested: PASS
-   TagNeeded: TRUE
+   TagNeeded: true
    PatchCreated: true
    PatchAccepted: true
    Notes: Updated to remove local framework dependencies
@@ -54,9 +54,9 @@ SITE VERIFICATION CHECKLIST
 6. AZURE MACHINE LEARNING
    URL: https://github.com/rob-foulkrod/MachineLearningAZD
    Tested: PASS
-   TagNeeded: TRUE
-   PatchCreated: TRUE
-   PatchAccepted: TRUE
+   TagNeeded: true
+   PatchCreated: true
+   PatchAccepted: true
    Notes: Must run locally due to lengthy setup. Effort should be put in to eliminate the tag
    Verified Date: October 16, 2025
 
@@ -69,75 +69,75 @@ SITE VERIFICATION CHECKLIST
 
 8. ESHOPONWEB ACI ARCHITECTURE
    URL: https://github.com/maartenvandiemen/AZD-ACI-Demo
-   Tested: FAIL
-   TagNeeded: TRUE
-   PatchCreated: TRUE
-   PatchAccepted: FALSE
+   Tested: PASS
+   TagNeeded: true
+   PatchCreated: true
+   PatchAccepted: true
    Notes: Runs in cloudshell after tag has been added
    Verified Date: October 16, 2025
 
 9. ESHOPONWEB ACAPPS ARCHITECTURE
    URL: https://github.com/maartenvandiemen/AZD-ACA-Demo
-   Tested: FAIL
-   TagNeeded: TRUE
-   PatchCreated: TRUE
-   PatchAccepted: FALSE
+   Tested: PASS
+   TagNeeded: true
+   PatchCreated: true
+   PatchAccepted: true
    Notes: Runs in cloudshell after tag has been added
    Verified Date: October 16, 2025
 
 10. ESHOPONWEB AKS ARCHITECTURE
     URL: https://github.com/maartenvandiemen/AZD-AKS-Demo
-    Tested: FAIL
-    TagNeeded: TRUE
-    PatchCreated: TRUE
-    PatchAccepted: FALSE
+    Tested: PASS
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: true
     Notes: Runs in cloudshell after tag has been added
     Verified Date: October 16, 2025
 
 11. AZURE FRONTDOOR CDN WITH SAMPLE HTML WEBAPP
     URL: https://github.com/petender/azd-fdcdn
-    Tested: Failed
-    TagNeeded: TRUE
-    PatchCreated: TRUE
-    PatchAccepted: FALSE
+    Tested: fail
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: false
     Notes: 
     Verified Date: 
 
 12. ESHOPONWEB IN AZURE APP SERVICE AND SQL AZURE DB
     URL: https://github.com/maartenvandiemen/AZD-PaaS-Demo
-    Tested: FAILED
-    TagNeeded: TRUE
-    PatchCreated: TRUE
-    PatchAccepted: FALSE
+    Tested: PASS
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: true
     Notes: Can only run on windows. No Cloud shell support.
     Verified Date: October 16, 2025
 
 13. AZURE EVENT HUB WITH CONSOLE APP
     URL: https://github.com/true-while/event-hub-azd
-    Tested: FAILED
-    TagNeeded: TRUE
-    PatchCreated: TRUE
-    PatchAccepted: FALSE
+    Tested: fail
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: false
     Notes: 
     Verified Date: October 16, 2025
 
 14. HUB SPOKE WITH VPN GATEWAY AND JUMPVM
     URL: https://github.com/petender/azd-hubspoke
-    Tested: PASSED
-    TagNeeded: FALSE
+    Tested: PASS
+    TagNeeded: false
     Notes: Works in cloudshell (25 minutes 51 seconds.)
     Verified Date: October 16, 2025
 
 15. AZURE SITE 2 SITE VPN
     URL: https://github.com/petender/azd-site2sitevpn/
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: PASS
+    TagNeeded: false
+    Notes: works in cloudshell (43 minutes 49 seconds)
+    Verified Date: October 16, 2025
 
 16. AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT)
     URL: https://github.com/maartenvandiemen/AZD-WatermarkFunction
-    Tested: FAILED
+    Tested: FAIL
     TagNeeded: true
     PatchCreated: true
     PatchAccepted: false
@@ -146,66 +146,72 @@ SITE VERIFICATION CHECKLIST
 
 17. AZURE SENTINEL WITH DATA CONNECTORS
     URL: https://github.com/petender/azd-sentinel
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: Fail
+    TagNeeded: true
+    PatchCreated: false
+    PatchAccepted: false
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 18. AZURE TRAFFIC MANAGER WITH WEBAPPS
     URL: https://github.com/petender/azd-trafficmgr
     Tested: UNTESTED
     TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Notes: Subscription quota problem while testing
+    Verified Date: October 16, 2025
 
 19. PURVIEW DEMO ENVIRONMENT
     URL: https://github.com/rob-foulkrod/purviewEnvironment-azd
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: Pass
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: true
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 20. SERVICE ENDPOINT, PRIVATE ENDPOINT AND PRIVATE LINK SERVICE
     URL: https://github.com/sarahallali/azd-Privatelink-Pendpoint
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: Pass
+    TagNeeded: false
+    Notes: works in cloudshell (6 minutes 55 seconds)
+    Verified Date: October 16, 2025
 
 21. AZURE NESTED HYPERVISOR DEMOS
     URL: https://github.com/koenraadhaedens/azd-nestedhv-dc-rtr
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: Pass
+    TagNeeded: false
+    Notes: works in cloudshell (5 minutes 57 seconds)
+    Verified Date: October 16, 2025
 
 22. WINDOWS 11 DEVELOPER PC
     URL: https://github.com/koenraadhaedens/AZD-WIN11-DEV-PC-DOCKER
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: Pass
+    TagNeeded: false
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 23. AZURE HOSTED DEV CONTAINER
     URL: https://github.com/koenraadhaedens/azd-infra-dev-containers
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: Pass
+    TagNeeded: false
+    Notes: works in cloudshell (1 minute 54 seconds)
+    Verified Date: October 16, 2025
 
 24. FUNCTIONS E2E HTTP TO EVENT HUBS
     URL: https://github.com/rob-foulkrod/tdd-functions-e2e-http-to-eventhubs
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: Pass
+    TagNeeded: false
+    Notes: fails in cloudshell.
+    Verified Date: October 16, 2025
 
 25. AZURE SECURITY SCENARIOS
     URL: https://github.com/true-while/owasp-azd/
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: fail
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: false
+    Notes: Also fixed intermittent deployment error
+    Verified Date: October 16, 2025
 
 26. AZURE LOAD TESTING
     URL: https://github.com/maartenvandiemen/azd-loadtest/
@@ -223,17 +229,21 @@ SITE VERIFICATION CHECKLIST
 
 28. AZURE INTEGRATION SERVICES QUICKSTART
     URL: https://github.com/ronaldbosma/azure-integration-services-quickstart
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: fail
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: false
+    Notes: Initial menu fails in cloudShell
+    Verified Date: October 16, 2025
 
 29. AZURE STORAGE ACCOUNT WITH BLOBS AND FILE SHARE
     URL: https://github.com/petender/azd-storaccnt
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: fail
+    TagNeeded: true
+    PatchCreated: true
+    PatchAccepted: false
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 30. DEPLOY DEEPSEEK-R1 ON AZURE CONTAINER APPS WITH SERVERLESS GPUS
     URL: https://github.com/daverendon/azd-deepseek-r1-on-azure-container-apps
@@ -244,31 +254,31 @@ SITE VERIFICATION CHECKLIST
 
 31. YOUTUBE SUMMARIZER WITH OPENAI AND BLAZOR .NET
     URL: https://github.com/petender/azd-youtubesummarizer-openai
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: pass
+    TagNeeded: false
     Notes: 
     Verified Date: 
 
 32. INTERNATIONAL SPACE STATION (ISS) TRACKER WITH FABRIC AND EVENT HUBS
     URL: https://github.com/petender/issdata
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: pass
+    TagNeeded: no
+    Notes: needs better doc for "Enter a value for the 'adminalias' infrastructure parameter"
+    Verified Date: October 16, 2025
 
 33. DEPLOY A BASELINE WEB APPLICATION
     URL: https://github.com/daverendon/azd-baseline-webapp
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: pass
+    TagNeeded: no
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 34. PLAN AND IMPLEMENT SECURITY FOR PUBLIC ACCESS TO AZURE RESOURCES
     URL: https://github.com/daverendon/azd-firewall
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: pass
+    TagNeeded: no
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 35. COGNITIVE SERVICES PYTHON APP WITH SERVICEENDPOINT
     URL: https://github.com/vincentk16/azd-vision-face
@@ -300,24 +310,24 @@ SITE VERIFICATION CHECKLIST
 
 39. SERVICE ENDPOINTS AND SECURING STORAGE
     URL: https://github.com/daverendon/azd-service-endpoints-and-securing-storage
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: pass
+    TagNeeded: no
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 40. INTERSITE CONNECTIVITY
     URL: https://github.com/daverendon/azd-intersite-connectivity
     Tested: UNTESTED
     TagNeeded: UNKNOWN
-    Notes: 
+    Notes: capacity restrictions in subscription
     Verified Date: 
 
 41. GOODFOOD - MICROSERVICES ARCHITECTURE
     URL: https://github.com/michelmsft/GoodFood/
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: pass
+    TagNeeded: no
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 42. AZURE APP CONFIGURATION
     URL: https://github.com/maartenvandiemen/AZD-AppConfiguration
@@ -458,6 +468,19 @@ Format for updating:
 - Update the "Verified Date" field
 
 ================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
