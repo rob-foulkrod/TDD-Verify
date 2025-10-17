@@ -5,27 +5,27 @@
 SUMMARY STATISTICS
 ================================================================================
 Total Sites: 58
-Tested (PASS): 38
-Tested (FAIL): 6
+Tested (PASS): 39
+Tested (FAIL): 5
 Untested: 14
 SecurityControl Tags Needed (YES): 18
 SecurityControl Tags Needed (NO): 26
 SecurityControl Tags Status Unknown: 14
 Patches Created: 18
-Patches Accepted: 14
-Patches Pending: 4
+Patches Accepted: 15
+Patches Pending: 3
 
 ================================================================================
 PROGRESS REPORT
 ================================================================================
 Overall Testing Progress: 44/58 sites (75.9%)
-Pass Rate: 38/44 tested sites (86.4%)
+Pass Rate: 39/44 tested sites (88.6%)
 Progress Bar: [█████████████████████████████████████░░░░░░░░░░░░░] 75.9%
 
 ================================================================================
 BREAKDOWN BY STATUS
 ================================================================================
-SITES THAT PASSED (38):
+SITES THAT PASSED (39):
 - MINIMAL .NET API WITH CONFERENCEAPI SAMPLE (PASS)
 - API MANAGEMENT WITH CONFERENCEAPI (PASS)
 - AZURE AI SERVICES WITH MULTIPLE OPENAI MODELS (PASS)
@@ -64,14 +64,14 @@ SITES THAT PASSED (38):
 - CALL APIM BACKEND WITH OAUTH (PASS)
 - HARDENED WEBAPP (PASS)
 - AZURE MULTIAGENT (PASS)
+- AZURE A2A TRANSLATION (PASS)
 
-SITES THAT FAILED (6):
+SITES THAT FAILED (5):
 - AZURE EVENT HUB WITH CONSOLE APP (FAIL)
 - AZURE SENTINEL WITH DATA CONNECTORS (FAIL)
 - AZURE SECURITY SCENARIOS (FAIL)
 - MICROSOFT SENTINEL (FAIL)
 - CALL APIM WITH MANAGED IDENTITY (FAIL)
-- AZURE A2A TRANSLATION (FAIL)
 
 SITES REQUIRING SECURITY TAGS (18):
 - TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
@@ -114,7 +114,7 @@ SITES WITH PATCHES CREATED (18):
 - CALL APIM WITH MANAGED IDENTITY
 - AZURE A2A TRANSLATION
 
-SITES WITH PATCHES ACCEPTED (14):
+SITES WITH PATCHES ACCEPTED (15):
 - TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
 - BLAZOR BADGEMAKER WITH AZURE AI SERVICES
 - AZURE MACHINE LEARNING
@@ -129,11 +129,11 @@ SITES WITH PATCHES ACCEPTED (14):
 - AZURE STORAGE ACCOUNT WITH BLOBS AND FILE SHARE
 - AZURE APP CONFIGURATION
 - AZURE PRIVATE LINK
+- AZURE A2A TRANSLATION
 
-SITES WITH PATCHES PENDING (4):
+SITES WITH PATCHES PENDING (3):
 - AZURE EVENT HUB WITH CONSOLE APP
 - AZURE SECURITY SCENARIOS
 - CALL APIM WITH MANAGED IDENTITY
-- AZURE A2A TRANSLATION
 
 ================================================================================
