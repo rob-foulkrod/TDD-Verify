@@ -333,7 +333,7 @@ SITE VERIFICATION CHECKLIST
     URL: https://github.com/maartenvandiemen/AZD-AppConfiguration
     Tested: FAIL
     TagNeeded: YES
-    PatchCreated: yes
+    PatchCreated: true
     PatchAccepted: false
     Notes: 
     Verified Date: October 16, 2025
@@ -476,6 +476,7 @@ Format for updating:
 - Update the "Verified Date" field
 
 ================================================================================
+
 
 
 
