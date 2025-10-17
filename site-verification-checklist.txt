@@ -45,7 +45,7 @@ SITE VERIFICATION CHECKLIST
 5. BLAZOR BADGEMAKER WITH AZURE AI SERVICES
    URL: https://github.com/rob-foulkrod/BadgeMaker
    Tested: PASS
-   TagNeeded: true
+   TagNeeded: YES
    PatchCreated: true
    PatchAccepted: true
    Notes: Updated to remove local framework dependencies
@@ -54,7 +54,7 @@ SITE VERIFICATION CHECKLIST
 6. AZURE MACHINE LEARNING
    URL: https://github.com/rob-foulkrod/MachineLearningAZD
    Tested: PASS
-   TagNeeded: true
+   TagNeeded: YES
    PatchCreated: true
    PatchAccepted: true
    Notes: Must run locally due to lengthy setup. Effort should be put in to eliminate the tag
@@ -63,14 +63,14 @@ SITE VERIFICATION CHECKLIST
 7. ESHOPONWEB VM ARCHITECTURE
    URL: https://github.com/rob-foulkrod/IAAS2019
    Tested: PASS
-   TagNeeded: FALSE
+   TagNeeded: NO
    Notes: Deployed in cloudshell without issues
    Verified Date: October 16, 2025
 
 8. ESHOPONWEB ACI ARCHITECTURE
    URL: https://github.com/maartenvandiemen/AZD-ACI-Demo
    Tested: PASS
-   TagNeeded: true
+   TagNeeded: YES
    PatchCreated: true
    PatchAccepted: true
    Notes: Runs in cloudshell after tag has been added
@@ -79,7 +79,7 @@ SITE VERIFICATION CHECKLIST
 9. ESHOPONWEB ACAPPS ARCHITECTURE
    URL: https://github.com/maartenvandiemen/AZD-ACA-Demo
    Tested: PASS
-   TagNeeded: true
+   TagNeeded: YES
    PatchCreated: true
    PatchAccepted: true
    Notes: Runs in cloudshell after tag has been added
@@ -88,7 +88,7 @@ SITE VERIFICATION CHECKLIST
 10. ESHOPONWEB AKS ARCHITECTURE
     URL: https://github.com/maartenvandiemen/AZD-AKS-Demo
     Tested: PASS
-    TagNeeded: true
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: true
     Notes: Runs in cloudshell after tag has been added
@@ -96,8 +96,8 @@ SITE VERIFICATION CHECKLIST
 
 11. AZURE FRONTDOOR CDN WITH SAMPLE HTML WEBAPP
     URL: https://github.com/petender/azd-fdcdn
-    Tested: fail
-    TagNeeded: true
+    Tested: FAIL
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: false
     Notes: 
@@ -106,7 +106,7 @@ SITE VERIFICATION CHECKLIST
 12. ESHOPONWEB IN AZURE APP SERVICE AND SQL AZURE DB
     URL: https://github.com/maartenvandiemen/AZD-PaaS-Demo
     Tested: PASS
-    TagNeeded: true
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: true
     Notes: Can only run on windows. No Cloud shell support.
@@ -114,8 +114,8 @@ SITE VERIFICATION CHECKLIST
 
 13. AZURE EVENT HUB WITH CONSOLE APP
     URL: https://github.com/true-while/event-hub-azd
-    Tested: fail
-    TagNeeded: true
+    Tested: FAIL
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: false
     Notes: 
@@ -124,21 +124,21 @@ SITE VERIFICATION CHECKLIST
 14. HUB SPOKE WITH VPN GATEWAY AND JUMPVM
     URL: https://github.com/petender/azd-hubspoke
     Tested: PASS
-    TagNeeded: false
+    TagNeeded: NO
     Notes: Works in cloudshell (25 minutes 51 seconds.)
     Verified Date: October 16, 2025
 
 15. AZURE SITE 2 SITE VPN
     URL: https://github.com/petender/azd-site2sitevpn/
     Tested: PASS
-    TagNeeded: false
+    TagNeeded: NO
     Notes: works in cloudshell (43 minutes 49 seconds)
     Verified Date: October 16, 2025
 
 16. AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT)
     URL: https://github.com/maartenvandiemen/AZD-WatermarkFunction
     Tested: FAIL
-    TagNeeded: true
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: false
     Notes: Can only run on windows. No Cloud shell support. 
@@ -146,8 +146,8 @@ SITE VERIFICATION CHECKLIST
 
 17. AZURE SENTINEL WITH DATA CONNECTORS
     URL: https://github.com/petender/azd-sentinel
-    Tested: Fail
-    TagNeeded: true
+    Tested: FAIL
+    TagNeeded: YES
     PatchCreated: false
     PatchAccepted: false
     Notes: 
@@ -162,8 +162,8 @@ SITE VERIFICATION CHECKLIST
 
 19. PURVIEW DEMO ENVIRONMENT
     URL: https://github.com/rob-foulkrod/purviewEnvironment-azd
-    Tested: Pass
-    TagNeeded: true
+    Tested: PASS
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: true
     Notes: 
@@ -171,43 +171,43 @@ SITE VERIFICATION CHECKLIST
 
 20. SERVICE ENDPOINT, PRIVATE ENDPOINT AND PRIVATE LINK SERVICE
     URL: https://github.com/sarahallali/azd-Privatelink-Pendpoint
-    Tested: Pass
-    TagNeeded: false
+    Tested: PASS
+    TagNeeded: NO
     Notes: works in cloudshell (6 minutes 55 seconds)
     Verified Date: October 16, 2025
 
 21. AZURE NESTED HYPERVISOR DEMOS
     URL: https://github.com/koenraadhaedens/azd-nestedhv-dc-rtr
-    Tested: Pass
-    TagNeeded: false
+    Tested: PASS
+    TagNeeded: NO
     Notes: works in cloudshell (5 minutes 57 seconds)
     Verified Date: October 16, 2025
 
 22. WINDOWS 11 DEVELOPER PC
     URL: https://github.com/koenraadhaedens/AZD-WIN11-DEV-PC-DOCKER
-    Tested: Pass
-    TagNeeded: false
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
     Verified Date: October 16, 2025
 
 23. AZURE HOSTED DEV CONTAINER
     URL: https://github.com/koenraadhaedens/azd-infra-dev-containers
-    Tested: Pass
-    TagNeeded: false
+    Tested: PASS
+    TagNeeded: NO
     Notes: works in cloudshell (1 minute 54 seconds)
     Verified Date: October 16, 2025
 
 24. FUNCTIONS E2E HTTP TO EVENT HUBS
     URL: https://github.com/rob-foulkrod/tdd-functions-e2e-http-to-eventhubs
-    Tested: Pass
-    TagNeeded: false
+    Tested: PASS
+    TagNeeded: NO
     Notes: fails in cloudshell.
     Verified Date: October 16, 2025
 
 25. AZURE SECURITY SCENARIOS
     URL: https://github.com/true-while/owasp-azd/
-    Tested: fail
-    TagNeeded: true
+    Tested: FAIL
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: false
     Notes: Also fixed intermittent deployment error
@@ -229,8 +229,8 @@ SITE VERIFICATION CHECKLIST
 
 28. AZURE INTEGRATION SERVICES QUICKSTART
     URL: https://github.com/ronaldbosma/azure-integration-services-quickstart
-    Tested: fail
-    TagNeeded: true
+    Tested: FAIL
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: false
     Notes: Initial menu fails in cloudShell
@@ -238,8 +238,8 @@ SITE VERIFICATION CHECKLIST
 
 29. AZURE STORAGE ACCOUNT WITH BLOBS AND FILE SHARE
     URL: https://github.com/petender/azd-storaccnt
-    Tested: fail
-    TagNeeded: true
+    Tested: FAIL
+    TagNeeded: YES
     PatchCreated: true
     PatchAccepted: false
     Notes: 
@@ -254,29 +254,29 @@ SITE VERIFICATION CHECKLIST
 
 31. YOUTUBE SUMMARIZER WITH OPENAI AND BLAZOR .NET
     URL: https://github.com/petender/azd-youtubesummarizer-openai
-    Tested: pass
-    TagNeeded: false
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
     Verified Date: 
 
 32. INTERNATIONAL SPACE STATION (ISS) TRACKER WITH FABRIC AND EVENT HUBS
     URL: https://github.com/petender/issdata
-    Tested: pass
-    TagNeeded: no
+    Tested: PASS
+    TagNeeded: NO
     Notes: needs better doc for "Enter a value for the 'adminalias' infrastructure parameter"
     Verified Date: October 16, 2025
 
 33. DEPLOY A BASELINE WEB APPLICATION
     URL: https://github.com/daverendon/azd-baseline-webapp
-    Tested: pass
-    TagNeeded: no
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
     Verified Date: October 16, 2025
 
 34. PLAN AND IMPLEMENT SECURITY FOR PUBLIC ACCESS TO AZURE RESOURCES
     URL: https://github.com/daverendon/azd-firewall
-    Tested: pass
-    TagNeeded: no
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
     Verified Date: October 16, 2025
 
@@ -310,8 +310,8 @@ SITE VERIFICATION CHECKLIST
 
 39. SERVICE ENDPOINTS AND SECURING STORAGE
     URL: https://github.com/daverendon/azd-service-endpoints-and-securing-storage
-    Tested: pass
-    TagNeeded: no
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
     Verified Date: October 16, 2025
 
@@ -324,45 +324,49 @@ SITE VERIFICATION CHECKLIST
 
 41. GOODFOOD - MICROSERVICES ARCHITECTURE
     URL: https://github.com/michelmsft/GoodFood/
-    Tested: pass
-    TagNeeded: no
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
     Verified Date: October 16, 2025
 
 42. AZURE APP CONFIGURATION
     URL: https://github.com/maartenvandiemen/AZD-AppConfiguration
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: FAIL
+    TagNeeded: YES
+    PatchCreated: yes
+    PatchAccepted: false
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 43. AZURE PRIVATE LINK
     URL: https://github.com/daverendon/azd-private-link
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: PASS
+    TagNeeded: NO
+    PatchCreated: true
+    PatchAccepted: true
+    Notes: Submitted pull request to remove region hard coded to east us
+    Verified Date: October 16, 2025
 
 44. SQL WORKLOAD SIMULATOR
     URL: https://github.com/koenraadhaedens/azd-sqlworloadsim
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 45. AZ-104 ALL-IN-ONE
     URL: https://github.com/SQLtattoo/azd-az104-all-in-one
     Tested: UNTESTED
     TagNeeded: UNKNOWN
-    Notes: 
+    Notes: quota issues and syntax errors, PR for error submitted
     Verified Date: 
 
 46. AZURE AI AGENT SERVICE
     URL: https://github.com/petender/azd-ai-agent-service
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: PASS    
+    TagNeeded: NO
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 47. AZURE FOUNDRY SORA
     URL: https://github.com/petender/azd-foundrysora
@@ -373,10 +377,10 @@ SITE VERIFICATION CHECKLIST
 
 48. AZURE MONITOR DEMO
     URL: https://github.com/kareldewinter/tdd-azd-monitor
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 49. API MANAGEMENT WITH CONFERENCEAPI - OAUTH
     URL: https://github.com/rob-foulkrod/azd-apimwithconfAPI-OAuth
@@ -387,66 +391,70 @@ SITE VERIFICATION CHECKLIST
 
 50. MICROSOFT SENTINEL
     URL: https://github.com/daverendon/azd-microsoft-sentinel
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
-    Notes: 
-    Verified Date: 
+    Tested: FAIL
+    TagNeeded: NO
+    Notes: Deployment Error Details: BadRequest: Workspace 'la-o3epgiduv7cam' is not onboarded to Microsoft Sentinel.
+    Verified Date: October 16, 2025
 
 51. POSTGRESQL WITH AI
     URL: https://github.com/true-while/pg-ai-azd
     Tested: UNTESTED
     TagNeeded: UNKNOWN
-    Notes: 
+    Notes: need better description for  "Enter a value for the 'IP' infrastructure parameter: - Quota Issue
     Verified Date: 
 
 52. PROTECT APIM WITH OAUTH
     URL: https://github.com/ronaldbosma/protect-apim-with-oauth
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 53. CALL APIM BACKEND WITH OAUTH
     URL: https://github.com/ronaldbosma/call-apim-backend-with-oauth
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 54. CALL APIM WITH MANAGED IDENTITY
     URL: https://github.com/ronaldbosma/call-apim-with-managed-identity
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: FAIL
+    TagNeeded: YES
+    PatchCreated: true
+    PatchAccepted: false
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 55. HARDENED WEBAPP
     URL: https://github.com/daverendon/azd-hardened-webapp
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 56. AZURE RESEARCHER
     URL: https://github.com/petender/azd-researcher
     Tested: UNTESTED
     TagNeeded: UNKNOWN
-    Notes: 
+    Notes: Quota issue in testing
     Verified Date: 
 
 57. AZURE MULTIAGENT
     URL: https://github.com/daverendon/azd-multiagent
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: PASS
+    TagNeeded: NO
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 58. AZURE A2A TRANSLATION
     URL: https://github.com/passadis/azure-a2a-translation
-    Tested: UNTESTED
-    TagNeeded: UNKNOWN
+    Tested: FAIL
+    TagNeeded: YES
+    PatchCreated: true
+    PatchAccepted: false
     Notes: 
-    Verified Date: 
+    Verified Date: October 16, 2025
 
 ================================================================================
 TESTING INSTRUCTIONS
@@ -468,6 +476,16 @@ Format for updating:
 - Update the "Verified Date" field
 
 ================================================================================
+
+
+
+
+
+
+
+
+
+
 
 
 
