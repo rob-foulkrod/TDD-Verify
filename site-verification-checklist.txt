@@ -1,6 +1,6 @@
 # Azure Demo Sites Verification Checklist
 # Date Created: October 16, 2025
-# Last Updated: October 16, 2025
+# Last Updated: October 17, 2025
 
 ## VERIFICATION STATUS LEGEND:
 # Tested: PASS/FAIL/UNTESTED
@@ -137,11 +137,11 @@ SITE VERIFICATION CHECKLIST
 
 16. AZURE FUNCTIONS WITH BLOB TRIGGER (WATERMARK TEXT)
     URL: https://github.com/maartenvandiemen/AZD-WatermarkFunction
-    Tested: FAIL
+    Tested: PASS
     TagNeeded: YES
     PatchCreated: true
-    PatchAccepted: false
-    Notes: Can only run on windows. No Cloud shell support. 
+    PatchAccepted: true
+    Notes: Can only run on windows. No Cloud shell support.
     Verified Date: October 16, 2025
 
 17. AZURE SENTINEL WITH DATA CONNECTORS
@@ -229,10 +229,10 @@ SITE VERIFICATION CHECKLIST
 
 28. AZURE INTEGRATION SERVICES QUICKSTART
     URL: https://github.com/ronaldbosma/azure-integration-services-quickstart
-    Tested: FAIL
+    Tested: PASS
     TagNeeded: YES
     PatchCreated: true
-    PatchAccepted: false
+    PatchAccepted: true
     Notes: Initial menu fails in cloudShell
     Verified Date: October 16, 2025
 
@@ -331,10 +331,10 @@ SITE VERIFICATION CHECKLIST
 
 42. AZURE APP CONFIGURATION
     URL: https://github.com/maartenvandiemen/AZD-AppConfiguration
-    Tested: FAIL
+    Tested: PASS
     TagNeeded: YES
     PatchCreated: true
-    PatchAccepted: false
+    PatchAccepted: true
     Notes: 
     Verified Date: October 16, 2025
 
@@ -476,6 +476,7 @@ Format for updating:
 - Update the "Verified Date" field
 
 ================================================================================
+
 
 
 
