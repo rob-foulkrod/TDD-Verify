@@ -1,31 +1,31 @@
 # Azure Demo Sites Verification Summary
-# Last Updated: October 17, 2025
+# Last Updated: October 24, 2025
 
 ================================================================================
 SUMMARY STATISTICS
 ================================================================================
 Total Sites: 58
-Tested (PASS): 39
-Tested (FAIL): 5
+Tested (PASS): 40
+Tested (FAIL): 4
 Untested: 14
 SecurityControl Tags Needed (YES): 18
 SecurityControl Tags Needed (NO): 26
 SecurityControl Tags Status Unknown: 14
 Patches Created: 18
-Patches Accepted: 15
-Patches Pending: 3
+Patches Accepted: 16
+Patches Pending: 2
 
 ================================================================================
 PROGRESS REPORT
 ================================================================================
 Overall Testing Progress: 44/58 sites (75.9%)
-Pass Rate: 39/44 tested sites (88.6%)
+Pass Rate: 40/44 tested sites (90.9%)
 Progress Bar: [█████████████████████████████████████░░░░░░░░░░░░░] 75.9%
 
 ================================================================================
 BREAKDOWN BY STATUS
 ================================================================================
-SITES THAT PASSED (39):
+SITES THAT PASSED (40):
 - MINIMAL .NET API WITH CONFERENCEAPI SAMPLE (PASS)
 - API MANAGEMENT WITH CONFERENCEAPI (PASS)
 - AZURE AI SERVICES WITH MULTIPLE OPENAI MODELS (PASS)
@@ -62,16 +62,16 @@ SITES THAT PASSED (39):
 - AZURE MONITOR DEMO (PASS)
 - PROTECT APIM WITH OAUTH (PASS)
 - CALL APIM BACKEND WITH OAUTH (PASS)
+- CALL APIM WITH MANAGED IDENTITY (PASS)
 - HARDENED WEBAPP (PASS)
 - AZURE MULTIAGENT (PASS)
 - AZURE A2A TRANSLATION (PASS)
 
-SITES THAT FAILED (5):
+SITES THAT FAILED (4):
 - AZURE EVENT HUB WITH CONSOLE APP (FAIL)
 - AZURE SENTINEL WITH DATA CONNECTORS (FAIL)
 - AZURE SECURITY SCENARIOS (FAIL)
 - MICROSOFT SENTINEL (FAIL)
-- CALL APIM WITH MANAGED IDENTITY (FAIL)
 
 SITES REQUIRING SECURITY TAGS (18):
 - TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
@@ -114,7 +114,7 @@ SITES WITH PATCHES CREATED (18):
 - CALL APIM WITH MANAGED IDENTITY
 - AZURE A2A TRANSLATION
 
-SITES WITH PATCHES ACCEPTED (15):
+SITES WITH PATCHES ACCEPTED (16):
 - TOLLBOOTH SERVERLESS ARCHITECTURE WITH AZURE FUNCTIONS
 - BLAZOR BADGEMAKER WITH AZURE AI SERVICES
 - AZURE MACHINE LEARNING
@@ -129,11 +129,11 @@ SITES WITH PATCHES ACCEPTED (15):
 - AZURE STORAGE ACCOUNT WITH BLOBS AND FILE SHARE
 - AZURE APP CONFIGURATION
 - AZURE PRIVATE LINK
+- CALL APIM WITH MANAGED IDENTITY
 - AZURE A2A TRANSLATION
 
-SITES WITH PATCHES PENDING (3):
+SITES WITH PATCHES PENDING (2):
 - AZURE EVENT HUB WITH CONSOLE APP
 - AZURE SECURITY SCENARIOS
-- CALL APIM WITH MANAGED IDENTITY
 
 ================================================================================

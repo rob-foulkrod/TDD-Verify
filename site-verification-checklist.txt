@@ -1,6 +1,6 @@
 # Azure Demo Sites Verification Checklist
 # Date Created: October 16, 2025
-# Last Updated: October 17, 2025
+# Last Updated: October 24, 2025
 
 ## VERIFICATION STATUS LEGEND:
 # Tested: PASS/FAIL/UNTESTED
@@ -419,10 +419,10 @@ SITE VERIFICATION CHECKLIST
 
 54. CALL APIM WITH MANAGED IDENTITY
     URL: https://github.com/ronaldbosma/call-apim-with-managed-identity
-    Tested: FAIL
+    Tested: Pass
     TagNeeded: YES
     PatchCreated: true
-    PatchAccepted: false
+    PatchAccepted: true
     Notes: 
     Verified Date: October 16, 2025
 
@@ -476,6 +476,8 @@ Format for updating:
 - Update the "Verified Date" field
 
 ================================================================================
+
+
 
 
 
